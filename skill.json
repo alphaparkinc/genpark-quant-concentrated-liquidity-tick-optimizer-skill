@@ -1,0 +1,15 @@
+{
+  "name": "genpark-quant-concentrated-liquidity-tick-optimizer-skill",
+  "version": "1.0.0",
+  "description": "Quant concentrated liquidity tick optimizer for Uniswap v3/v4 pools balancing fee APY against impermanent loss given asset volatility.",
+  "tools": [
+    {
+      "name": "compute_optimal_range",
+      "description": "Compute optimal tick and price range for concentrated LP positions."
+    },
+    {
+      "name": "price_to_tick",
+      "description": "Convert discrete asset price to exact Uniswap tick index."
+    }
+  ]
+}
